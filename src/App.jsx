@@ -7,14 +7,16 @@ function App() {
   return(
     <div>
       <h1>
-        Test Your Knowledge of the React Javascript Library 
+        ReactJS Flashcards
       </h1>
       <h3>
         Developed by 
-        <a href="https://miaelena.netlify.app/">Mia</a>
+        <a href="https://miaelena.netlify.app/"> Mia</a>
       </h3>
-      <h5>Number of Cards: 10</h5>
+      <h4>Number of Cards: 10</h4>
+
     </div>
+   
   )
 
 }
