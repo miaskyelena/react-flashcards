@@ -4,7 +4,7 @@ function Header() {
     return (
         <div>
             <h1>
-                 ReactJS FlashCards
+                 React FlashCards
             </h1>
              <h3>
                  Built by 

@@ -1,7 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@900&display=swap');
 :root {
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   background-image: url(./assets/images/reactbg.jpeg);
@@ -45,22 +45,45 @@ p {
 .submit {
   display: flex; 
   justify-content: space-between;
-  max-width: 60%;
+  width: 40%;
   margin: auto;
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   margin-top: 20px;
   color: black;
 }
 
-.submit form{
-  width: 100%;
-  font-size: small;
+.submit form, label, input{
+  margin: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top:5px;
+  margin-bottom:5px;
+  font-size:small;
+  max-width: 100%;
   color: black;
 }
 
-.submit button {
-  width: 40%;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 20%;
+  margin: auto;
+  margin-top: 20px;
+
 }
+
+.nav div {
+  width: 60%;
+
+}
+
+.nav button {
+  
+  font-size: 40px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
 

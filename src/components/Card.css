@@ -16,7 +16,6 @@
     vertical-align:top;
     position: relative;
     border-radius: 20px;
-    box-shadow: rgb(0, 0, 0) 10px 0 1px;
     font-size: large;
     font-weight: bold;
     
@@ -32,7 +31,7 @@
 }
 .answer{
     top: 40%;
-    width: 100%;
+    width: ;
     font-size: 20px;
 
 }

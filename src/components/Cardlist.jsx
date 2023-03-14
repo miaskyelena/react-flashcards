@@ -7,7 +7,7 @@ function Cardlist ({cards}){
         <div className="cards"> 
             {cards.map(
                 (card) => {
-                    return <Card card={card}/>;}
+                    return <Card card={card} id={1}/>;}
             )}
         </div>
     )
