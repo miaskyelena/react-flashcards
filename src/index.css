@@ -1,11 +1,11 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&display=swap');
 :root {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Archivo', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  background-image: url(./assets/images/react-photoshop-final.png);
-  background-size: cover;
+  background-image: url(./assets/images/reactbg.jpeg);
+  background-size:auto;
 }
 
 a {
@@ -14,7 +14,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #0a119e;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 h1 {
@@ -32,20 +32,35 @@ h1 {
 }
 
 h1,h3,h4 {
-  text-shadow: rgb(0, 0, 0) 1px 3px 10px;
+  text-shadow: rgb(0, 0, 0) 10px 0 1px;
 }
 
 p {
   font-size: x-large;
 }
 .container {
-  background-color: #ffffff;
+  margin-top: 100px;
+}
+
+.submit {
+  display: flex; 
+  justify-content: space-between;
+  max-width: 60%;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
   color: black;
-  width: 600px;
-  height: 400px;
-  margin: 10px;
-  padding: 50px 50px 50px;
-  border-radius: 20px;
-  box-shadow:rgb(41, 41, 40) 1px 3px 5px;
+}
+
+.submit form{
+  width: 100%;
+  font-size: small;
+  color: black;
+}
+
+.submit button {
+  width: 40%;
 }
 

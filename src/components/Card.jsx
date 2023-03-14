@@ -1,19 +1,19 @@
+import React, { useEffect, useState } from "react"; 
+import './Card.css';
 
-import React from 'react'
-import Dictionary from './Dictionary';
+function Card({card}){
+    const [flip,setFlip]=useState(true);
 
-const Card = () => {
-  return (
-    <div>
-        <div className='card' id='hard'>
-        <div class="front">
-            
+    return (
+        <div className='card' onClick={()=>{setFlip(!flip)}}>
+            {flip ? <div className="front">
+                <div className="question">{card.question}</div>
+                </div>:<div className="answer">{card.answer}</div>
+            }
         </div>
-        <div class="back"></div>
-    </div>
-        <button type="next" class="nextCard">⭢</button>
-    </div>
-  )
+
+        
+    );
 }
 
 export default Card;
