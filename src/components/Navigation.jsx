@@ -1,16 +1,36 @@
-import React from "react";
+import { React, useState } from "react";
+import Cardlist from "./Cardlist";
 
 function Navigation() {
+
+    function Increment(){
+        const [count, setCount] = useState(0);
+
+        function handleClick() {
+            setCount(count + 1);
+            {card.id} + 1; 
+        }
+    }
+
+    function Decrement(){
+        const [count, setCount] = useState(0);
+
+        function handleClick() {
+            setCount(count - 1);
+            {card.id} - 1;
+        }
+    }
+
     return (
         <div className="nav">
-             <div className="back">
-                <button>⬅️</button>
+             <div>
+                <button onClick={Decrement} className="back">⬅️</button>
             </div>
-            <div className="forward">
-                <button>➡️</button>
+            <div>
+                <button onClick={Increment} className="forward">➡️</button>
             </div>
-            <div className="shuffle">
-                <button>🔀</button>
+            <div>
+                <button className="shuffle">🔀</button>
             </div>
         </div>
 

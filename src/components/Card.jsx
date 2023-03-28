@@ -1,19 +1,9 @@
-import React, { useEffect, useState } from "react"; 
-import './Card.css';
-
-function Card({card}){
-    const [flip,setFlip]=useState(true);
-
-    return (
-        <div className='card' onClick={()=>{setFlip(!flip)}}>
-            {flip ? <div className="front">
-                <div className="question">{card.question}</div>
-                </div>:<div className="answer">{card.answer}</div>
-            }
+const Card = (props) => {    
+    return(
+        <div className={`'Card ' + ${props.categColor}`}>
+            <h1>{props.cardText}</h1>
+            <img className="food-img" src={`${props.img}.png`} />            
         </div>
-
-        
-    );
+    )
 }
-
-export default Card;
+export default Card

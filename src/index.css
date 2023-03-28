@@ -32,7 +32,7 @@ h1 {
 }
 
 h1,h3,h4 {
-  text-shadow: rgb(0, 0, 0) 10px 0 1px;
+  text-shadow: rgb(0, 0, 0) 5px 0 1px;
 }
 
 p {
@@ -45,7 +45,7 @@ p {
 .submit {
   display: flex; 
   justify-content: space-between;
-  width: 40%;
+  max-width: 30%;
   margin: auto;
   background-color: white;
   padding: 10px;
@@ -58,10 +58,9 @@ p {
   margin: auto;
   margin-left: 5px;
   margin-right: 5px;
-  margin-top:5px;
+  margin-top:10px;
   margin-bottom:5px;
   font-size:small;
-  max-width: 100%;
   color: black;
 }
 
